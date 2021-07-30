@@ -2,7 +2,7 @@ import ExpenseItem from "./ExpenseItem";
 import Card from '../UI/Card';
 import './Expenses.css';
 
-function Expenses (){
+const Expenses = () => {
     const expenses = [
         {
           id: "e1",
