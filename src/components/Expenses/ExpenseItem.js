@@ -13,7 +13,7 @@ const ExpenseItem = (props) => {
       setTitle(title);
     }, 1000);
   };
-
+  
   return (
     <Card className="expense-item">
       <ExpenseDate date={props.date} />
